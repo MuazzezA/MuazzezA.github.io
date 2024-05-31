@@ -119,4 +119,12 @@ body {
 
 .experience-container{
     padding-left: 26px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.tech-stack-container{
+    align-self: center;
+    gap: 8px;
+    width: 75%;
 }
