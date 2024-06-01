@@ -63,6 +63,15 @@ body {
     letter-spacing: 0.2pc;
     font-family: "Quicksand", sans-serif;
 }
+.motto{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 200;
+    color: #C0C0C0;
+    position: absolute;
+    bottom: 0;
+    word-spacing: 0.2pc;
+}
 
 .wave-svg {
     position: absolute;
@@ -72,14 +81,22 @@ body {
 }
 
 .bio{
-    width: 45%;
+    width: 60%;
     font-size: 16px;
     font-weight: 300;
+    padding-left: 40px;
 }
 
 .bio-container{
+    display: flex;
     padding: 28px;
+    flex-direction: row;
+    align-items: center;
+}
 
+.tenor-gif-embed{
+    width: 120px;
+    height: 120px;
 }
 
 .social-buttons {
