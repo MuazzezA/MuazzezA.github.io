@@ -176,11 +176,10 @@ h2 {
 }
 
 .work-experience {
-    font-family: 'Poppins', sans-serif;
     color: #E4E6E9;
     margin-top: 20px;
-    text-align: left; /* Sol hizalama */
-    margin-left: 20px; /* Sol taraftan biraz boşluk bırak */
+    text-align: left;
+    margin-left: 8px;
 }
 
 .work-item {
@@ -190,7 +189,7 @@ h2 {
 .job-title {
     font-size: 1em;
     font-weight: 500;
-    color: #E4E6E9; /* İş başlığı rengi */
+    color: #E4E6E9;
     margin-bottom: -4px;
     margin-top: 45px;
 }
@@ -204,9 +203,10 @@ h2 {
 
 .job-description {
     font-size: 0.9em;
-    color: #D1D5DB;
+    color: #DBDBDB;
     margin-top: 8px;
     line-height: 1.1;
+    margin-left: 12px;
 }
 
 .education {
