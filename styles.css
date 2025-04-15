@@ -215,6 +215,19 @@ h2 {
     margin-top: 45px;
 }
 
+.back-button {
+    color: #b1b2b5;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.back-button:hover {
+    background-color: #323542;
+}
 
 @media (max-width: 768px) {
     body {
