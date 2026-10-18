@@ -1,58 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RN Dev M.A.</title>
-    <link rel="stylesheet" href="styles.css">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muazzez Aydın — React Native Developer</title>
+<meta name="description" content="Muazzez Aydın is a React Native developer who builds production-ready apps, native modules and CI/CD pipelines, and runs the app studio Innovelf.">
+<meta name="author" content="Muazzez Aydın">
+<meta name="theme-color" content="#141B2B">
+<link rel="canonical" href="https://muazzeza.github.io/">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Muazzez Aydın">
+<meta property="og:title" content="Muazzez Aydın — React Native Developer">
+<meta property="og:description" content="I build production-ready React Native apps, native modules and CI/CD pipelines — and run my own studio, Innovelf.">
+<meta property="og:url" content="https://muazzeza.github.io/">
+<meta property="og:image" content="https://muazzeza.github.io/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Be better than you were yesterday ᝰ.ᐟ — Muazzez Aydın, React Native Developer">
+<meta property="profile:first_name" content="Muazzez">
+<meta property="profile:last_name" content="Aydın">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Muazzez Aydın — React Native Developer">
+<meta name="twitter:description" content="I build production-ready React Native apps, native modules and CI/CD pipelines — and run my own studio, Innovelf.">
+<meta name="twitter:image" content="https://muazzeza.github.io/assets/og-image.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23141B2B'/%3E%3Ctext x='12' y='17' font-family='sans-serif' font-size='13' font-weight='700' text-anchor='middle' fill='%23EEF0F4'%3EMA%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script>
+/* a reload always starts at the top, even when the URL still carries a #section from a menu click */
+(function(){try{
+  var n=performance.getEntriesByType('navigation')[0];
+  if(n&&n.type==='reload'){
+    history.scrollRestoration='manual';
+    if(location.hash)history.replaceState(null,'',location.pathname+location.search);
+    window.scrollTo(0,0);
+    addEventListener('load',function(){window.scrollTo(0,0)});
+  }
+}catch(e){}})();
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ProfilePage",
+   "@id": "https://muazzeza.github.io/#page",
+   "url": "https://muazzeza.github.io/",
+   "name": "Muazzez Aydın — React Native Developer",
+   "inLanguage": "en",
+   "mainEntity": { "@id": "https://muazzeza.github.io/#person" },
+   "about": { "@id": "https://muazzeza.github.io/#person" },
+   "primaryImageOfPage": { "@id": "https://muazzeza.github.io/#image" }
+  },
+  {
+   "@type": "ImageObject",
+   "@id": "https://muazzeza.github.io/#image",
+   "url": "https://muazzeza.github.io/assets/og-image.png",
+   "width": 1200,
+   "height": 630
+  },
+  {
+   "@type": "Person",
+   "@id": "https://muazzeza.github.io/#person",
+   "name": "Muazzez Aydın",
+   "jobTitle": "React Native Developer",
+   "description": "React Native developer who builds production-ready apps, native modules and CI/CD pipelines, and runs the app studio Innovelf.",
+   "url": "https://muazzeza.github.io/",
+   "image": { "@id": "https://muazzeza.github.io/#image" },
+   "email": "mailto:innovelftech@gmail.com",
+   "worksFor": { "@id": "https://innovelf.netlify.app/#organization" },
+   "founder": { "@id": "https://innovelf.netlify.app/#organization" },
+   "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Konya Technical University",
+    "address": { "@type": "PostalAddress", "addressLocality": "Konya" }
+   },
+   "knowsAbout": [
+    "React Native", "Expo", "TypeScript", "JavaScript", "iOS native modules", "Android native modules",
+    "VPN development", "PDF processing", "Supabase", "RevenueCat", "Jenkins", "Fastlane", "Firebase", "CI/CD"
+   ],
+   "sameAs": [
+    "https://github.com/MuazzezA",
+    "https://www.linkedin.com/in/muazzezayd/",
+    "https://medium.com/@muazzezaydin",
+    "https://stackoverflow.com/users/16593252/muazzez",
+    "https://innovelf.netlify.app"
+   ]
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://innovelf.netlify.app/#organization",
+   "name": "Innovelf",
+   "url": "https://innovelf.netlify.app/",
+   "founder": { "@id": "https://muazzeza.github.io/#person" }
+  }
+ ]
+}
+</script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
-<!--<div class="image-container">
-    <img src="./assets/line-2.jpg" alt="Background Image" class="background-image">
-</div>-->
+<header class="site-head">
+  <div class="wrap">
+    <nav class="site-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-
-<div class="container">
-
-    <div class="quote">
-        <p>Be better than you were yesterday ᝰ.ᐟ</p>
-    </div>
-
-
+<main id="main">
+  <div class="hero-zone">
+  <div class="hero-bg" aria-hidden="true">
+    <svg viewBox="0 0 1200 640" preserveAspectRatio="xMaxYMid slice" focusable="false">
+      <g transform="translate(27 35)"><g class="m mini" style="--t:19s;--d:-1s;--r:5deg"><path d="M-6 0h12M0-6v12"/></g></g>
+      <g transform="translate(101 42) scale(0.42)"><g class="m" style="--t:12s;--d:-1s;--r:5deg"><rect x="6" y="2" width="38" height="64" rx="9"/><path d="M19 8h12"/><circle cx="25" cy="58" r="2"/><path d="M15 24h20M15 33h14M15 42h20"/></g></g>
+      <g transform="translate(294 17) scale(0.39)"><g class="m" style="--t:12s;--d:-18s;--r:4deg"><circle cx="10" cy="8" r="6"/><circle cx="10" cy="56" r="6"/><circle cx="40" cy="22" r="6"/><path d="M10 14v36M40 28c0 12-30 6-30 18"/></g></g>
+      <g transform="translate(373 18) scale(0.48)"><g class="m" style="--t:13s;--d:-13s;--r:6deg"><rect x="2" y="2" width="60" height="42" rx="7"/><path d="M13 15l9 7-9 7"/><path class="type" pathLength="1" d="M28 30h20"/><path class="caret" d="M50 28v5"/></g></g>
+      <g transform="translate(534 50) scale(0.48)"><g class="m" style="--t:12s;--d:-11s;--r:5deg"><rect x="6" y="2" width="38" height="64" rx="9"/><path d="M19 8h12"/><circle cx="25" cy="58" r="2"/><path d="M15 24h20M15 33h14M15 42h20"/></g></g>
+      <g transform="translate(692 37) scale(0.52)"><g class="m" style="--t:14s;--d:-14s;--r:11deg"><path d="M14 2h18l14 14v34a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6zM32 2v10a4 4 0 0 0 4 4h10"/><path d="M16 30h22M16 38h22M16 46h12"/><path d="M30 52c4-6 6 2 10-4"/></g></g>
+      <g transform="translate(854 29)"><g class="m mini" style="--t:17s;--d:-15s;--r:9deg"><circle r="3.5"/></g></g>
+      <g transform="translate(1010 36)"><g class="m mini" style="--t:11s;--d:-10s;--r:6deg"><circle r="3.5"/></g></g>
+      <g transform="translate(1100 14) scale(0.48)"><g class="m" style="--t:17s;--d:-18s;--r:9deg"><rect x="2" y="12" width="22" height="22" rx="7"/><rect x="38" y="12" width="22" height="22" rx="7"/><rect x="74" y="12" width="22" height="22" rx="7"/><path d="M24 23h14M60 23h14"/><path d="m81 23 4 4 8-8"/></g></g>
+      <g transform="translate(23 107)"><g class="m mini" style="--t:16s;--d:-2s;--r:4deg"><circle r="3.5"/></g></g>
+      <g transform="translate(362 112) scale(0.46)"><g class="m" style="--t:9s;--d:-14s;--r:9deg"><rect x="6" y="2" width="38" height="64" rx="9"/><path d="M19 8h12"/><circle cx="25" cy="58" r="2"/><path d="M15 24h20M15 33h14M15 42h20"/></g></g>
+      <g transform="translate(436 98)"><g class="m mini" style="--t:12s;--d:-12s;--r:10deg"><circle r="3.5"/></g></g>
+      <g transform="translate(526 115)"><g class="m mini" style="--t:17s;--d:-8s;--r:6deg"><circle r="3.5"/></g></g>
+      <g transform="translate(832 99) scale(0.38)"><g class="m" style="--t:10s;--d:-5s;--r:6deg"><path d="M14 2h18l14 14v34a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6zM32 2v10a4 4 0 0 0 4 4h10"/><path d="M16 30h22M16 38h22M16 46h12"/><path d="M30 52c4-6 6 2 10-4"/></g></g>
+      <g transform="translate(996 90) scale(0.54)"><g class="m" style="--t:11s;--d:-13s;--r:12deg"><rect x="2" y="12" width="22" height="22" rx="7"/><rect x="38" y="12" width="22" height="22" rx="7"/><rect x="74" y="12" width="22" height="22" rx="7"/><path d="M24 23h14M60 23h14"/><path d="m81 23 4 4 8-8"/></g></g>
+      <g transform="translate(1177 93) scale(0.4)"><g class="m" style="--t:16s;--d:-17s;--r:10deg"><circle cx="10" cy="8" r="6"/><circle cx="10" cy="56" r="6"/><circle cx="40" cy="22" r="6"/><path d="M10 14v36M40 28c0 12-30 6-30 18"/></g></g>
+      <g transform="translate(102 183) scale(0.4)"><g class="m" style="--t:16s;--d:-5s;--r:5deg"><path d="M17 15 4 28l13 13M39 15l13 13-13 13M33 8 23 48"/></g></g>
+      <g transform="translate(511 209)"><g class="m mini" style="--t:15s;--d:-4s;--r:8deg"><circle r="3.5"/></g></g>
+      <g transform="translate(585 201) scale(0.4)"><g class="m" style="--t:16s;--d:-15s;--r:11deg"><path d="M28 3 50 11v19c0 14-10 23-22 28C16 53 6 44 6 30V11z"/><circle cx="28" cy="27" r="5"/><path d="M28 32v8"/></g></g>
+      <g transform="translate(674 200) scale(0.4)"><g class="m" style="--t:11s;--d:-16s;--r:4deg"><rect x="2" y="12" width="22" height="22" rx="7"/><rect x="38" y="12" width="22" height="22" rx="7"/><rect x="74" y="12" width="22" height="22" rx="7"/><path d="M24 23h14M60 23h14"/><path d="m81 23 4 4 8-8"/></g></g>
+      <g transform="translate(851 189) scale(0.44)"><g class="m" style="--t:19s;--d:-2s;--r:8deg"><path d="M28 3 50 11v19c0 14-10 23-22 28C16 53 6 44 6 30V11z"/><circle cx="28" cy="27" r="5"/><path d="M28 32v8"/></g></g>
+      <g transform="translate(932 202)"><g class="m mini" style="--t:14s;--d:-7s;--r:7deg"><circle r="3.5"/></g></g>
+      <g transform="translate(1091 201)"><g class="m mini" style="--t:14s;--d:-0s;--r:4deg"><circle r="3.5"/></g></g>
+      <g transform="translate(1182 208)"><g class="m mini" style="--t:14s;--d:-14s;--r:9deg"><circle r="3.5"/></g></g>
+      <g transform="translate(24 264) scale(0.46)"><g class="m" style="--t:16s;--d:-6s;--r:9deg"><path d="M17 15 4 28l13 13M39 15l13 13-13 13M33 8 23 48"/></g></g>
+      <g transform="translate(300 257)"><g class="m mini" style="--t:15s;--d:-6s;--r:11deg"><circle r="3.5"/></g></g>
+      <g transform="translate(443 279) scale(0.38)"><g class="m" style="--t:15s;--d:-2s;--r:6deg"><path d="M28 3 50 11v19c0 14-10 23-22 28C16 53 6 44 6 30V11z"/><circle cx="28" cy="27" r="5"/><path d="M28 32v8"/></g></g>
+      <g transform="translate(619 259) scale(0.38)"><g class="m" style="--t:18s;--d:-15s;--r:9deg"><path d="M28 3 50 11v19c0 14-10 23-22 28C16 53 6 44 6 30V11z"/><circle cx="28" cy="27" r="5"/><path d="M28 32v8"/></g></g>
+      <g transform="translate(826 277) scale(0.47)"><g class="m" style="--t:12s;--d:-6s;--r:4deg"><rect x="2" y="2" width="60" height="42" rx="7"/><path d="M13 15l9 7-9 7"/><path class="type" pathLength="1" d="M28 30h20"/><path class="caret" d="M50 28v5"/></g></g>
+      <g transform="translate(1012 276)"><g class="m mini" style="--t:11s;--d:-1s;--r:9deg"><circle r="3.5"/></g></g>
+      <g transform="translate(27 363)"><g class="m mini" style="--t:17s;--d:-0s;--r:11deg"><path d="M-6 0h12M0-6v12"/></g></g>
+      <g transform="translate(187 360) scale(0.51)"><g class="m" style="--t:18s;--d:-3s;--r:12deg"><path d="M20 46h28a12 12 0 0 0 1-24 16 16 0 0 0-31-3A13 13 0 0 0 20 46z"/><path d="M34 26v14M28 32l6-6 6 6"/></g></g>
+      <g transform="translate(293 333) scale(0.47)"><g class="m" style="--t:12s;--d:-6s;--r:8deg"><rect x="6" y="2" width="38" height="64" rx="9"/><path d="M19 8h12"/><circle cx="25" cy="58" r="2"/><path d="M15 24h20M15 33h14M15 42h20"/></g></g>
+      <g transform="translate(617 362)"><g class="m mini" style="--t:18s;--d:-16s;--r:7deg"><circle r="3.5"/></g></g>
+      <g transform="translate(688 362)"><g class="m mini" style="--t:12s;--d:-16s;--r:8deg"><path d="M-6 0h12M0-6v12"/></g></g>
+      <g transform="translate(825 355) scale(0.39)"><g class="m" style="--t:16s;--d:-10s;--r:5deg"><circle cx="10" cy="8" r="6"/><circle cx="10" cy="56" r="6"/><circle cx="40" cy="22" r="6"/><path d="M10 14v36M40 28c0 12-30 6-30 18"/></g></g>
+      <g transform="translate(1179 353)"><g class="m mini" style="--t:11s;--d:-8s;--r:6deg"><path d="M-6 0h12M0-6v12"/></g></g>
+      <g transform="translate(129 420)"><g class="m mini" style="--t:19s;--d:-7s;--r:6deg"><circle r="3.5"/></g></g>
+      <g transform="translate(190 432) scale(0.45)"><g class="m" style="--t:14s;--d:-2s;--r:9deg"><path d="M20 46h28a12 12 0 0 0 1-24 16 16 0 0 0-31-3A13 13 0 0 0 20 46z"/><path d="M34 26v14M28 32l6-6 6 6"/></g></g>
+      <g transform="translate(279 443)"><g class="m mini" style="--t:18s;--d:-9s;--r:12deg"><path d="M-6 0h12M0-6v12"/></g></g>
+      <g transform="translate(594 427)"><g class="m mini" style="--t:9s;--d:-5s;--r:8deg"><circle r="3.5"/></g></g>
+      <g transform="translate(932 442) scale(0.52)"><g class="m" style="--t:18s;--d:-15s;--r:9deg"><path d="M17 15 4 28l13 13M39 15l13 13-13 13M33 8 23 48"/></g></g>
+      <g transform="translate(982 427) scale(0.39)"><g class="m" style="--t:9s;--d:-2s;--r:8deg"><path d="M14 2h18l14 14v34a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6zM32 2v10a4 4 0 0 0 4 4h10"/><path d="M16 30h22M16 38h22M16 46h12"/><path d="M30 52c4-6 6 2 10-4"/></g></g>
+      <g transform="translate(1159 445) scale(0.54)"><g class="m" style="--t:15s;--d:-8s;--r:6deg"><path d="M14 2h18l14 14v34a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6zM32 2v10a4 4 0 0 0 4 4h10"/><path d="M16 30h22M16 38h22M16 46h12"/><path d="M30 52c4-6 6 2 10-4"/></g></g>
+      <g transform="translate(109 502)"><g class="m mini" style="--t:13s;--d:-9s;--r:12deg"><circle r="3.5"/></g></g>
+      <g transform="translate(221 501)"><g class="m mini" style="--t:13s;--d:-11s;--r:4deg"><path d="M-6 0h12M0-6v12"/></g></g>
+      <g transform="translate(290 525) scale(0.4)"><g class="m" style="--t:12s;--d:-16s;--r:11deg"><path d="M20 46h28a12 12 0 0 0 1-24 16 16 0 0 0-31-3A13 13 0 0 0 20 46z"/><path d="M34 26v14M28 32l6-6 6 6"/></g></g>
+      <g transform="translate(449 524)"><g class="m mini" style="--t:15s;--d:-16s;--r:8deg"><path d="M-6 0h12M0-6v12"/></g></g>
+      <g transform="translate(538 498)"><g class="m mini" style="--t:15s;--d:-11s;--r:4deg"><path d="M-6 0h12M0-6v12"/></g></g>
+      <g transform="translate(594 517) scale(0.53)"><g class="m" style="--t:11s;--d:-1s;--r:5deg"><circle cx="10" cy="8" r="6"/><circle cx="10" cy="56" r="6"/><circle cx="40" cy="22" r="6"/><path d="M10 14v36M40 28c0 12-30 6-30 18"/></g></g>
+      <g transform="translate(753 508) scale(0.38)"><g class="m" style="--t:9s;--d:-14s;--r:6deg"><path d="M20 46h28a12 12 0 0 0 1-24 16 16 0 0 0-31-3A13 13 0 0 0 20 46z"/><path d="M34 26v14M28 32l6-6 6 6"/></g></g>
+      <g transform="translate(839 525)"><g class="m mini" style="--t:14s;--d:-7s;--r:4deg"><circle r="3.5"/></g></g>
+      <g transform="translate(909 490) scale(0.42)"><g class="m" style="--t:14s;--d:-12s;--r:5deg"><path d="M14 2h18l14 14v34a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6zM32 2v10a4 4 0 0 0 4 4h10"/><path d="M16 30h22M16 38h22M16 46h12"/><path d="M30 52c4-6 6 2 10-4"/></g></g>
+      <g transform="translate(1063 499) scale(0.43)"><g class="m" style="--t:15s;--d:-18s;--r:4deg"><rect x="2" y="2" width="60" height="42" rx="7"/><path d="M13 15l9 7-9 7"/><path class="type" pathLength="1" d="M28 30h20"/><path class="caret" d="M50 28v5"/></g></g>
+      <g transform="translate(1175 523)"><g class="m mini" style="--t:11s;--d:-12s;--r:9deg"><circle r="3.5"/></g></g>
+      <g transform="translate(57 579)"><g class="m mini" style="--t:9s;--d:-16s;--r:10deg"><path d="M-6 0h12M0-6v12"/></g></g>
+      <g transform="translate(461 607) scale(0.49)"><g class="m" style="--t:19s;--d:-7s;--r:5deg"><path d="M28 3 50 11v19c0 14-10 23-22 28C16 53 6 44 6 30V11z"/><circle cx="28" cy="27" r="5"/><path d="M28 32v8"/></g></g>
+      <g transform="translate(606 605)"><g class="m mini" style="--t:9s;--d:-0s;--r:12deg"><circle r="3.5"/></g></g>
+      <g transform="translate(687 574) scale(0.51)"><g class="m" style="--t:17s;--d:-17s;--r:5deg"><rect x="6" y="2" width="38" height="64" rx="9"/><path d="M19 8h12"/><circle cx="25" cy="58" r="2"/><path d="M15 24h20M15 33h14M15 42h20"/></g></g>
+      <g transform="translate(742 586)"><g class="m mini" style="--t:12s;--d:-6s;--r:7deg"><circle r="3.5"/></g></g>
+      <g transform="translate(842 574) scale(0.39)"><g class="m" style="--t:16s;--d:-9s;--r:4deg"><path d="M14 2h18l14 14v34a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6zM32 2v10a4 4 0 0 0 4 4h10"/><path d="M16 30h22M16 38h22M16 46h12"/><path d="M30 52c4-6 6 2 10-4"/></g></g>
+      <g transform="translate(914 589) scale(0.46)"><g class="m" style="--t:18s;--d:-18s;--r:6deg"><path d="M17 15 4 28l13 13M39 15l13 13-13 13M33 8 23 48"/></g></g>
+      <g transform="translate(1071 601) scale(0.51)"><g class="m" style="--t:13s;--d:-16s;--r:8deg"><path d="M20 46h28a12 12 0 0 0 1-24 16 16 0 0 0-31-3A13 13 0 0 0 20 46z"/><path d="M34 26v14M28 32l6-6 6 6"/></g></g>
+      <g transform="translate(1040 60) scale(0.5)"><g class="m" style="--t:12s;--d:-1s;--r:6deg"><rect x="2" y="2" width="60" height="42" rx="7"/><path d="M13 15l9 7-9 7"/><path class="type" pathLength="1" d="M28 30h20"/><path class="caret" d="M50 28v5"/></g></g>
+      <g transform="translate(1135 120) scale(0.46)"><g class="m" style="--t:14s;--d:-4s;--r:7deg"><rect x="2" y="12" width="22" height="22" rx="7"/><rect x="38" y="12" width="22" height="22" rx="7"/><rect x="74" y="12" width="22" height="22" rx="7"/><path d="M24 23h14M60 23h14"/><path d="m81 23 4 4 8-8"/></g></g>
+      <g transform="translate(960 150) scale(0.42)"><g class="m" style="--t:16s;--d:-7s;--r:8deg"><path d="M14 2h18l14 14v34a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6zM32 2v10a4 4 0 0 0 4 4h10"/><path d="M16 30h22M16 38h22M16 46h12"/><path d="M30 52c4-6 6 2 10-4"/></g></g>
+      <g transform="translate(1100 215) scale(0.48)"><g class="m" style="--t:18s;--d:-10s;--r:9deg"><rect x="6" y="2" width="38" height="64" rx="9"/><path d="M19 8h12"/><circle cx="25" cy="58" r="2"/><path d="M15 24h20M15 33h14M15 42h20"/></g></g>
+    </svg>
+  </div>
+  <div class="hero wrap">
+    <p class="slogan" lang="en">Be better than you were yesterday ᝰ.ᐟ</p>
     <h1>Muazzez Aydın</h1>
-    <div class="divider"></div>
-    <h2>React Native Developer</h2>
+    <p class="role">React Native Developer</p>
+    <p class="lead">I build production-ready React Native apps, native modules and CI/CD pipelines — and run my own studio, Innovelf.</p>
+    <a class="btn" href="#contact">Get in touch</a>
+  </div>
+  </div>
 
-    <div class="button-container">
-        <button class="info-btn" onclick="window.location.href='about.html';">Experiences</button>
+  <section id="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <div class="body">
+        <p>I am a computer engineer who specializes in mobile development. At university I explored cybersecurity, advanced C, Java, clean code, Git, C# with Unity and Flutter, and chose mobile because it became my true passion.</p>
+        <p>I worked as a React Native developer at Tribe and run Innovelf, my own app studio. I believe every day counts, and I try to become a better version of myself in my skills and in life.</p>
+      </div>
     </div>
+  </section>
 
-    <div class="social-buttons">
-        <a href="https://github.com/MuazzezA" target="_blank" class="btn github">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
-        </a>
-        <a href="https://www.linkedin.com/in/muazzezayd/" target="_blank" class="btn linkedin">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-        </a>
-        <a href="https://medium.com/@muazzezaydin" target="_blank" class="btn medium">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Medium_logo_Monogram.svg" alt="Medium">
-        </a>
-        <a href="https://stackoverflow.com/users/16593252/muazzez" target="_blank" class="btn stackoverflow">
-            <img src="./assets/stack-overflow.png" alt="Stack Overflow">
-        </a>
+  <section id="experience">
+    <div class="wrap">
+      <h2>Experience</h2>
+      <div>
+        <ol class="timeline">
+          <li class="job">
+            <h3 class="job-role">Middle React Native Developer</h3>
+            <p class="job-meta">Tribe, Sep 2023 – Nov 2026</p>
+            <ul>
+              <li>Developed VPN features on iOS using Network Extension and Personal VPN APIs, integrating IKEv2, IPsec and OpenVPN through the React Native bridge.</li>
+              <li>Implemented Android DNS and proxy settings using the VPN Service API, configured tun2socks and worked with .aar libraries for native Android modules.</li>
+              <li>Built native PDF processing modules (split, filter, resize, merge) with signature placement, coloring, sizing and background removal for both iOS and Android.</li>
+              <li>Contributed to CI/CD processes using Jenkins, Firebase App Distribution, Fastlane and Firebase Test Lab.</li>
+              <li>Integrated and optimized ads with AppLovin and the Google AdMob SDK, preventing redundant reloads.</li>
+              <li>Optimized sorting of 7K+ mixed contact records from 20s to 7s using TypeScript.</li>
+              <li>Developed real-time chat using Pusher with typing indicators, read receipts and AWS image uploads.</li>
+              <li>Implemented hot updates via an AWS-integrated custom updater (AppCenter alternative).</li>
+            </ul>
+          </li>
+          <li class="job">
+            <h3 class="job-role">React Native Intern</h3>
+            <p class="job-meta">Doser Logistics, Aug 2023</p>
+            <ul>
+              <li>Worked on mobile app updates using React Native CLI and Context API.</li>
+            </ul>
+          </li>
+          <li class="job">
+            <h3 class="job-role">Junior React Native Developer</h3>
+            <p class="job-meta">City Technologies Center, Aug 2022 – Sep 2023</p>
+            <ul>
+              <li>Contributed to 3 projects: theater ticketing app, city event news platform, and virtual business card sharing app.</li>
+              <li>Developed login, seat selection, and payment flows; implemented Redux &amp; Tailwind.</li>
+              <li>Converted Figma designs into functional mobile UI.</li>
+              <li>Enhanced teamwork and communication through weekly presentations.</li>
+            </ul>
+          </li>
+          <li class="job">
+            <h3 class="job-role">Flutter Intern</h3>
+            <p class="job-meta">City Technologies Center, Jul 2022</p>
+            <ul>
+              <li>Built a Flutter app with 5 interactive area graphs and dynamic data visualization.</li>
+              <li>Implemented navigation, data fetching, and UI rendering in Dart.</li>
+            </ul>
+          </li>
+        </ol>
+        <div class="edu">
+          <h3>Education</h3>
+          <p>Bachelor of Science in Computer Engineering, Konya Technical University, Konya, 2019–2023 (GPA 3.20)</p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <p class="about-me">
-        I am a computer engineer specializing in mobile development, with a strong focus on improving both my technical and social skills. During my university years, I worked in different areas to grow my knowledge, including cybersecurity, advanced C, Java, clean code, Git, C# with Unity game development, and Flutter. In the end, I decided to stick with mobile development because it became my true passion.
-    </p>
-    <p class="about-me">
-        I believe in the importance of each day and always strive to improve myself, becoming a better version of who I am, both in my skills and in life.
-    </p>
+  <section id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Mobile</h3>
+          <ul class="chips">
+            <li>React Native</li><li>Expo prebuild</li><li>React Native CLI</li><li>TypeScript</li><li>JavaScript</li>
+            <li>UIKit (iOS)</li><li>Zustand</li><li>Redux</li><li>Figma</li>
+            <li>Native modules: VPN, PDF, e-signature, image processing</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Backend &amp; payments</h3>
+          <ul class="chips">
+            <li>Supabase</li><li>RevenueCat</li><li>Adapty</li><li>Pusher</li>
+          </ul>
+        </div>
+        <div>
+          <h3>DevOps</h3>
+          <ul class="chips">
+            <li>Jenkins</li><li>Fastlane</li><li>Firebase</li><li>CI/CD</li><li>Git</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Networking, ads &amp; messaging</h3>
+          <ul class="chips">
+            <li>OpenVPN</li><li>IKEv2</li><li>IPsec</li><li>tun2socks</li>
+            <li>AppLovin</li><li>AdMob</li><li>OneSignal</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</div>
+  <section id="work">
+    <div class="wrap">
+      <h2>Selected work</h2>
+      <ul class="apps">
+        <li class="app" data-app="innerlyo">
+          <h3>Innerlyo</h3>
+          <p>A mood journal with an AI guide, shaped by Cognitive Behavioral Therapy principles.</p>
+          <div class="links"><a class="link" href="https://innovelf.netlify.app/innerlyo/">Project page</a><a class="link" href="https://apps.apple.com/tr/app/innerlyo-mood-ai-journal/id6756851264">App Store</a></div>
+        </li>
+        <li class="app" data-app="stickynote">
+          <h3>StickyNote</h3>
+          <p>A note-taking app for iOS with checklists, drawing on photos and notes pinned as Lock Screen widgets.</p>
+          <div class="links"><a class="link" href="https://innovelf.netlify.app/stickynote/">Project page</a><a class="link" href="https://apps.apple.com/tr/app/sticky-note-widgets-lists/id6801887106">App Store</a></div>
+        </li>
+        <li class="app" data-app="couplecare">
+          <h3>CoupleCare</h3>
+          <p>An AI relationship coach that gives couples personalized advice, conversation guidance and reports.</p>
+          <div class="links"><a class="link" href="https://innovelf.netlify.app/couplecare/">Project page</a><a class="link" href="https://apps.apple.com/tr/app/couple-care-relationship-ai/id6746072410">App Store</a></div>
+        </li>
+        <li class="app" data-app="vocabhive">
+          <h3>VocabHive</h3>
+          <p>A language-learning notebook where you build your own dictionary from lists, sections and quickly captured words.</p>
+          <div class="links"><a class="link" href="https://innovelf.netlify.app/vocabhive/">Project page</a><a class="link" href="https://apps.apple.com/tr/app/vocabhive/id6745320238">App Store</a><a class="link" href="https://play.google.com/store/apps/details?id=com.innovelf.vocabhive">Google Play</a></div>
+        </li>
+        <li class="app" data-app="farketmez">
+          <h3>Farketmez</h3>
+          <p>A small companion for the moments when making a decision feels harder than it should.</p>
+          <div class="links"><a class="link" href="https://innovelf.netlify.app/farketmez/">Project page</a><a class="link" href="https://apps.apple.com/us/app/farketmez/id6745528302">App Store</a><a class="link" href="https://play.google.com/store/apps/details?id=com.innovelf.farketmez">Google Play</a></div>
+        </li>
+      </ul>
+    </div>
+  </section>
 
+  <section id="studio">
+    <div class="wrap">
+      <h2>Studio</h2>
+      <div class="body">
+        <p>Innovelf is my independent app studio, where I design and build React Native apps, automation tools and B2B SaaS. I am the founder and the only developer, so the apps above are my own.</p>
+        <p><a class="link" href="https://innovelf.netlify.app" rel="me">innovelf.netlify.app</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="writing">
+    <div class="wrap">
+      <h2>Writing</h2>
+      <div class="body">
+        <p>My articles are on Medium.</p>
+        <p><a class="link" href="https://medium.com/@muazzezaydin" rel="me">medium.com/@muazzezaydin</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <div>
+        <a class="contact-mail link" href="mailto:innovelftech@gmail.com">innovelftech@gmail.com</a>
+        <ul class="profiles">
+          <li><a class="link" href="https://github.com/MuazzezA" rel="me">GitHub</a></li>
+          <li><a class="link" href="https://www.linkedin.com/in/muazzezayd/" rel="me">LinkedIn</a></li>
+          <li><a class="link" href="https://medium.com/@muazzezaydin" rel="me">Medium</a></li>
+          <li><a class="link" href="https://stackoverflow.com/users/16593252/muazzez" rel="me">Stack Overflow</a></li>
+          <li><a class="link" href="https://innovelf.netlify.app" rel="me">Innovelf</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span>© 2026 Muazzez Aydın</span>
+    <span class="foot-slogan" lang="en">Be better than you were yesterday ᝰ.ᐟ</span>
+  </div>
+</footer>
 </body>
 </html>
