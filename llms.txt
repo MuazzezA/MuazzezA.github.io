@@ -1,0 +1,35 @@
+# Muazzez Aydın
+
+> Muazzez Aydın is a React Native developer who builds production-ready mobile apps, native modules and CI/CD pipelines, and runs her own app studio, Innovelf.
+
+Site: https://muazzeza.github.io/
+Contact: innovelftech@gmail.com
+
+## About
+
+- Role: founder of Innovelf; previously Middle React Native Developer at Tribe (Sep 2023 – Nov 2026).
+- Education: BS in Computer Engineering, Konya Technical University, 2019–2023.
+- Skills: React Native, Expo prebuild, TypeScript, native modules (VPN, PDF, e-signature, image processing), Supabase, RevenueCat, Jenkins, Fastlane, Firebase, CI/CD.
+
+## Experience
+
+- Middle React Native Developer, Tribe, Sep 2023 – Nov 2026
+- React Native Intern, Doser Logistics, Aug 2023
+- Junior React Native Developer, City Technologies Center, Aug 2022 – Sep 2023
+- Flutter Intern, City Technologies Center, Jul 2022
+
+## Selected work
+
+- [Innerlyo](https://innovelf.netlify.app/innerlyo/): AI mood journal. [App Store](https://apps.apple.com/tr/app/innerlyo-mood-ai-journal/id6756851264)
+- [StickyNote](https://innovelf.netlify.app/stickynote/): note-taking app with widgets. [App Store](https://apps.apple.com/tr/app/sticky-note-widgets-lists/id6801887106)
+- [CoupleCare](https://innovelf.netlify.app/couplecare/): AI relationship coach. [App Store](https://apps.apple.com/tr/app/couple-care-relationship-ai/id6746072410)
+- [VocabHive](https://innovelf.netlify.app/vocabhive/): personal dictionary for language learners. [App Store](https://apps.apple.com/tr/app/vocabhive/id6745320238), [Google Play](https://play.google.com/store/apps/details?id=com.innovelf.vocabhive)
+- [Farketmez](https://innovelf.netlify.app/farketmez/): decision helper. [App Store](https://apps.apple.com/us/app/farketmez/id6745528302), [Google Play](https://play.google.com/store/apps/details?id=com.innovelf.farketmez)
+
+## Profiles
+
+- [GitHub](https://github.com/MuazzezA)
+- [LinkedIn](https://www.linkedin.com/in/muazzezayd/)
+- [Medium](https://medium.com/@muazzezaydin)
+- [Stack Overflow](https://stackoverflow.com/users/16593252/muazzez)
+- [Innovelf](https://innovelf.netlify.app)
